@@ -1,4 +1,4 @@
-### Install library
+### Install
 ```
 npm install react-hot-loader --save
 ```
