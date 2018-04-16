@@ -25,5 +25,9 @@
 ## ruby
 * install
 
+## aws
+* aws lambda
+* cloud watch
+
 
 
