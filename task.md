@@ -28,6 +28,11 @@
 ## aws
 * aws lambda
 * cloud watch
-
+* aws data trasfer
+* aws sns
+* aws key management service
+* aws sqs
+* aws cloud trail
+* aws ses
 
 
