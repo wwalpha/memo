@@ -11,8 +11,8 @@
 
 
 ## study site
-* hibernate 
-* jpa
+* hibernate [in progress]
+* jpa  [in progress]
 * top
 
 
