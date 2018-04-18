@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      hideAll();
+      $('.first').each(function (index, item) {
+        $(item).show();
+      });
+    });
+
+    function hideAll() {
+      $('#tableX tbody tr').each(function (index, item) {
+        $(item).hide();
+      });
+    }
+
+    function kaiso(index) {
+      hideAll();
+
+      var length = 3 + index * 2;
+      $('#tableX tbody tr').each(function (index, item) {
+        var list = $(item).attr('class').split(' ').filter(function (classname) {
+          return (classname.indexOf('A') == 0 || classname.indexOf('B') == 0) && classname.length == length;
+        });
+
+        if (list.length > 0) {
+          $(item).show();
+          $($($(item).children()[0]).children()[1]).html('+');
+        }
+      });
+    }
+
+    function btnClick(btn, key) {
+      var expand = $(btn).html() == '+';
+      $(btn).html(expand ? '-' : '+');
+
+      $('#tableX tbody tr').each(function (index, item) {
+        if (expand) {
+          var list = $(item).attr('class').split(' ').filter(function (value) {
+            return value.indexOf(key) != -1 && value.length == (key.length + 2);
+          });
+          if (list.length > 0) {
+            $(item).show();
+          }
+        } else {
+          var list = $(item).attr('class').split(' ').filter(function (value) {
+            return value.indexOf(key) != -1 && value.length > key.length;
+          });
+          if (list.length > 0) {
+            $(item).hide();
+            $($($(item).children()[0]).children()[1]).html('+')
+          }
+        }
+      });
+    }
+
+  </script>
+  <title>xxxx</title>
+</head>
+
+<body>
+  <button onclick="kaiso(1)">階層1</button>
+  <button onclick="kaiso(2)">階層2</button>
+  <button onclick="kaiso(3)">階層3</button>
+  <button onclick="kaiso(4)">階層4</button>
+  <button onclick="kaiso(5)">階層5</button>
+  <table id="tableX" class="MuiTable-root-457">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">ホテル名</th>
+        <th scope="col">アドレス</th>
+        <th scope="col">ランク</th>
+        <th scope="col">食事</th>
+        <th scope="col">コメント</th>
+      </tr>
+    </thead>
+    <tbody class="MuiTableBody-root-472">
+      <tr class="first A0101">
+        <td>
+          <button tabindex="0" type="button">A_row1</button>
+          <button tabindex="0" type="button" onclick="btnClick(this, 'A0101');">+</button>
+        </td>
+        <td>豪華ホテル</td>
+        <td>東京都港区</td>
+        <td>★★</td>
+        <td>あり</td>
+        <td>
+          <div>
+            <div>
+              <p>品川駅近い</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="A010101">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row2</span>
+          </button>
+          <button tabindex="0" type="button" onclick="btnClick(this, 'A010101');">+</button>
+        </td>
+        <td>花ごよみ東京</td>
+        <td>東京都中央区</td>
+        <td>★★★★</td>
+        <td>なし</td>
+        <td>
+          <div>
+            <div>
+              <p>ホテルの最上階にある優雅な雰囲気の店内。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="A01010101">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row3</span>
+          </button>
+        </td>
+        <td>品川東武ホテル</td>
+        <td>東京都港区</td>
+        <td>★★★</td>
+        <td>なし</td>
+        <td>
+          <div>
+            <div>
+              <p>都心近い</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="A01010102">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row3</span>
+          </button>
+          <button tabindex="0" type="button" onclick="btnClick(this, 'A01010102');">+</button>
+        </td>
+        <td>渋谷東武ホテル</td>
+        <td>東京都渋谷区</td>
+        <td>★★★★</td>
+        <td>両方</td>
+        <td>
+          <div>
+            <div>
+              <p>渋谷駅から徒歩9分の場所にあるモダンなビジネスホテル。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="A0101010201">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row4</span>
+          </button>
+          <button tabindex="0" type="button" onclick="btnClick(this, 'A0101010201');">+</button>
+        </td>
+        <td>川越東武ホテル</td>
+        <td>埼玉県川越市</td>
+        <td>★★★</td>
+        <td>なし</td>
+        <td>
+          <div>
+            <div>
+              <p>白で統一されたスタイリッシュな外観が特徴で、中層階に屋上庭園を備える。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="A010101020101">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row5</span>
+          </button>
+        </td>
+        <td>川越東武ホテル</td>
+        <td>埼玉県川越市</td>
+        <td>★★★</td>
+        <td>なし</td>
+        <td>
+          <div>
+            <div>
+              <p>白で統一されたスタイリッシュな外観が特徴で、中層階に屋上庭園を備える。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="A010102">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row2</span>
+          </button>
+          <button tabindex="0" type="button" onclick="btnClick(this, 'A010102');">+</button>
+        </td>
+        <td>川越東武ホテル</td>
+        <td>埼玉県川越市</td>
+        <td>★★★</td>
+        <td>なし</td>
+        <td>
+          <div>
+            <div>
+              <p>白で統一されたスタイリッシュな外観が特徴で、中層階に屋上庭園を備える。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="A01010201">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row3</span>
+          </button>
+        </td>
+        <td>渋谷東武ホテル</td>
+        <td>東京都渋谷区</td>
+        <td>★★★★</td>
+        <td>両方</td>
+        <td>
+          <div>
+            <div>
+              <p>渋谷駅から徒歩9分の場所にあるモダンなビジネスホテル。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="first B0101">
+        <td>
+          <button tabindex="0" type="button">B_row1</button>
+          <button tabindex="0" type="button" onclick="btnClick(this, 'B0101');">+</button>
+        </td>
+        <td>豪華ホテル</td>
+        <td>東京都港区</td>
+        <td>★★</td>
+        <td>あり</td>
+        <td>
+          <div>
+            <div>
+              <p>品川駅近い</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="B010101">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row2</span>
+          </button>
+          <button tabindex="0" type="button" onclick="btnClick(this, 'B010101');">+</button>
+        </td>
+        <td>花ごよみ東京</td>
+        <td>東京都中央区</td>
+        <td>★★★★</td>
+        <td>なし</td>
+        <td>
+          <div>
+            <div>
+              <p>ホテルの最上階にある優雅な雰囲気の店内。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="B01010101">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row3</span>
+          </button>
+        </td>
+        <td>品川東武ホテル</td>
+        <td>東京都港区</td>
+        <td>★★★</td>
+        <td>なし</td>
+        <td>
+          <div>
+            <div>
+              <p>都心近い</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="B01010102">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row3</span>
+          </button>
+          <button tabindex="0" type="button" onclick="btnClick(this, 'B01010102');">+</button>
+        </td>
+        <td>渋谷東武ホテル</td>
+        <td>東京都渋谷区</td>
+        <td>★★★★</td>
+        <td>両方</td>
+        <td>
+          <div>
+            <div>
+              <p>渋谷駅から徒歩9分の場所にあるモダンなビジネスホテル。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="B0101010201">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row4</span>
+          </button>
+          <button tabindex="0" type="button" onclick="btnClick(this, 'B0101010201');">+</button>
+        </td>
+        <td>川越東武ホテル</td>
+        <td>埼玉県川越市</td>
+        <td>★★★</td>
+        <td>なし</td>
+        <td>
+          <div>
+            <div>
+              <p>白で統一されたスタイリッシュな外観が特徴で、中層階に屋上庭園を備える。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="B010101020101">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row5</span>
+          </button>
+        </td>
+        <td>川越東武ホテル</td>
+        <td>埼玉県川越市</td>
+        <td>★★★</td>
+        <td>なし</td>
+        <td>
+          <div>
+            <div>
+              <p>白で統一されたスタイリッシュな外観が特徴で、中層階に屋上庭園を備える。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="B010102">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row2</span>
+          </button>
+          <button tabindex="0" type="button" onclick="btnClick(this, 'B010102');">+</button>
+        </td>
+        <td>川越東武ホテル</td>
+        <td>埼玉県川越市</td>
+        <td>★★★</td>
+        <td>なし</td>
+        <td>
+          <div>
+            <div>
+              <p>白で統一されたスタイリッシュな外観が特徴で、中層階に屋上庭園を備える。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr class="B01010201">
+        <td>
+          <button tabindex="0" type="button">
+            <span>row3</span>
+          </button>
+        </td>
+        <td>渋谷東武ホテル</td>
+        <td>東京都渋谷区</td>
+        <td>★★★★</td>
+        <td>両方</td>
+        <td>
+          <div>
+            <div>
+              <p>渋谷駅から徒歩9分の場所にあるモダンなビジネスホテル。</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
