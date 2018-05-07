@@ -5,7 +5,7 @@
 * まとめ
 
 ## Amazon Simple Queue Service (SQS)
-* 長い歴史を持つ『メッセージキュー』サービス
+長い歴史を持つ『メッセージキュー』サービス
 
 ## メッセージキューサービスとは？
 ### Message Queue
@@ -14,54 +14,56 @@
 * Amazon SQSはPull型のMQサービス
   * 受信側はSQSに問い合わせてメッセージ取得
 
-### Amazon SQSはAWSフルマネージドな分散キュー
+## Amazon SQSはAWSフルマネージドな分散キュー
 * 高い信頼性： 複数のサーバー/データセンターにメッセージを保持
 * スケーラブル： 多数の送信者/受信者に対応
 * 高スループット： メッセージが増加しても高スループットを出し続ける
 * 低コスト： 毎月の無料枠 + 使った分だけの従量課金
 
-### SQSを使う利点: 疎結合 * Loosely Coupled
+## SQSを使う利点: 疎結合 * Loosely Coupled
 * 例えば、以下のようなケース
   * ユウタさん: 今すぐ、大量のデータ登録をしたい。
   * ヒロシさん: 今は負荷が高いので困る。一定間隔で少しずつなら…
 
-### Amazon SQSで利用する識別子
-* Queue URL（キューURL）
-  * キューを作成する際に払い出されるURL
-  * https://sqs.リージョン.amazonaws.com/アカウントID/キュー名
-* Message ID（メッセージID）
-  * システムで割り当てられたID （例：0a41026d-283b-4e5c-9b3f-debffb709ef4）
-* Receipt Handle（受信ハンドル）
-  * メッセージの削除や可視性(Visibility)の変更には、"受信ハンドル"を指定する必要がある
-  * メッセージを受信するたびに"受信ハンドル"も受信する
-  * 同じメッセージでも、受信する度に異なる"受信ハンドル"を受け取る
-  * このため、常に最新の受信ハンドルを使って削除等をすること
+## Amazon SQSで利用する識別子
+### Queue URL（キューURL）
+* キューを作成する際に払い出されるURL
+* https://sqs.リージョン.amazonaws.com/アカウントID/キュー名
 
-### Amazon SQSをはじめるのは簡単です
-* キューの作成（que01という名前のキューを作る）
-  * 例：リージョン指定（ここでは東京）
+### Message ID（メッセージID）
+* システムで割り当てられたID （例：0a41026d-283b-4e5c-9b3f-debffb709ef4）
+
+### Receipt Handle（受信ハンドル）
+* メッセージの削除や可視性(Visibility)の変更には、"受信ハンドル"を指定する必要がある
+* メッセージを受信するたびに"受信ハンドル"も受信する
+* 同じメッセージでも、受信する度に異なる"受信ハンドル"を受け取る
+* このため、常に最新の受信ハンドルを使って削除等をすること
+
+## Amazon SQSをはじめるのは簡単です
+### キューの作成（que01という名前のキューを作る）
+* 例：リージョン指定（ここでは東京）
 ```
 C:￥> aws sqs create-queue --queue-name que01 --region ap-northeast-1
 ```
-  * 実行結果：キューURLが表示される
+* 実行結果：キューURLが表示される
 ```
 {
 "QueueUrl": "https://ap-northeast-1.queue.amazonaws.com/＜アカウントID＞/que01"
 }
 ```
-  * 例：リージョン指定せず（デフォルトはバージニア北部（us-east-1））
+* 例：リージョン指定せず（デフォルトはバージニア北部（us-east-1））
 ```
 C:￥> aws sqs create-queue --queue-name que02
 ```
-  * 実行結果： （us-east-1のときは、queue.amazon.comとなる）
+* 実行結果： （us-east-1のときは、queue.amazon.comとなる）
 ```
 {
 "QueueUrl": "https://queue.amazonaws.com/＜アカウントID＞/que02"
 }
 ```
 
-* キューの一覧表示: 作成されたことを確認
-  * 例： デフォルトリージョンが「オレゴン」（us-west-2）の場合
+### キューの一覧表示: 作成されたことを確認
+* 例： デフォルトリージョンが「オレゴン」（us-west-2）の場合
 ```
 C:￥> aws sqs list-queues
 ```
@@ -77,12 +79,12 @@ C:￥> aws sqs list-queues
 }
 ```
 
-* メッセージの送信
-  * 例： デフォルトリージョンが「オレゴン」（us-west-2）の場合（１行で）
+### メッセージの送信
+* 例： デフォルトリージョンが「オレゴン」（us-west-2）の場合（１行で）
 ```
 C:￥> aws sqs send-message --queue-url https://us-west-2.queue.amazonaws.com/＜アカウントID＞ /que011 --message-body AAAAAAAAAAAAAAAAAAAAA
 ```
-  * 結果： ハッシュされた結果とメッセージIDが返却される
+* 結果： ハッシュされた結果とメッセージIDが返却される
 ```
 {
 "MD5OfMessageBody": "5bc308c3d25645d2516222e055134c04",
@@ -90,12 +92,12 @@ C:￥> aws sqs send-message --queue-url https://us-west-2.queue.amazonaws.com/�
 }
 ```
 
-* メッセージの受信
-  * 例： デフォルトリージョンが「オレゴン」（us-west-2）の場合
+### メッセージの受信
+* 例： デフォルトリージョンが「オレゴン」（us-west-2）の場合
 ```
 C:￥> aws sqs receive-message --queue-url https://us-west-2.queue.amazonaws.com/＜アカウントID＞ /que011
 ```
-  * 結果： メッセージと共に、「受信ハンドル」や「メッセージID」も返却される
+* 結果： メッセージと共に、「受信ハンドル」や「メッセージID」も返却される
 ```
 {
   "Messages": [
@@ -109,13 +111,13 @@ C:￥> aws sqs receive-message --queue-url https://us-west-2.queue.amazonaws.com
 }
 ```
 
-* メッセージの削除
-  * 例： デフォルトリージョンが「オレゴン」（us-west-2）の場合
+### メッセージの削除
+* 例： デフォルトリージョンが「オレゴン」（us-west-2）の場合
 ```
 C:￥> aws sqs delete-message --queue-url https://us-west-2.queue.amazonaws.com/＜アカウントID＞ /que011
 --receipt-handle "AQEBP3Zah1+ofjs… ～中略～ …ryXHENpytJ2kAAOFI8n4wr03bVog=="
 ```
-  * 結果： 何も返却されない
+* 結果： 何も返却されない
 
 ### AWS SDK編
 * キューの作成
@@ -160,43 +162,49 @@ sqs.deleteQueue(new DeleteQueueRequest(myQueueUrl));
   * Node.js http://aws.amazon.com/jp/sdk-for-node-js/
   * Go(Coming Soon!) https://github.com/awslabs/aws-sdk-go
 
-### Amazon SQSのコスト
-* 無料利用枠
-  * (SQSご利用全ユーザー) 毎月100万キューイングリクエストまで無料
-* SQSリクエスト100万件につき0.476 USD （※東京リージョン）
-  * 複数メッセージを１つのリクエストとしてバッチ送信することも可能
-* データ転送
-  * 送信（アウト）
-    * 最初の1GB/月： 0 USD
-    * 10TBまで/月： 0.140 USD GBあたり
-    〜略〜
-    * 次の350TBまで /月： 0.120 USD GBあたり
-    * 350TBを越える場合の価格はお問い合わせください
-    * **同一リージョン内のSQSとEC2インスタンスのデータ転送は無料**
+## Amazon SQSのコスト
+### 無料利用枠
+(SQSご利用全ユーザー) 毎月100万キューイングリクエストまで無料
 
-### 効率良くAmazon SQSを使う
+### SQSリクエスト100万件につき0.476 USD （※東京リージョン）
+複数メッセージを１つのリクエストとしてバッチ送信することも可能
+
+### データ転送
+* 送信（アウト）
+  * 最初の1GB/月： 0 USD
+  * 10TBまで/月： 0.140 USD GBあたり
+  〜略〜
+  * 次の350TBまで /月： 0.120 USD GBあたり
+  * 350TBを越える場合の価格はお問い合わせください
+  * **同一リージョン内のSQSとEC2インスタンスのデータ転送は無料**
+
+## 効率良くAmazon SQSを使う
 * Visibility Timeout + EC2 Spot Instance
 * 一度のAPIコールで10件のメッセージを送信/受信
 * Long PollでReceive Messageコールの頻度を抑える
-* Visibility Timeoutとは
-  * メッセージ受信者が複数の場合
-  * 受信1がメッセージを取得
-  * 30秒間(デフォルト設定。変更可能。最大12時間)、受信2と受信3にはメッセージを見せない(in Flight)
-  * 受信1がキューからメッセージを削除せず、タイムアウトした場合はどの受信サーバーからもメッセージが受信可能に
-* Amazon EC2 * Spot Instances
-  * Amazon EC2 の価格をお客様が指定できるシステム
-  * 入札価格がその時点のスポット価格を上回っていれば、インスタンスを実行できる
-    * スポット価格は、需要と供給の関係に基づいてリアルタイムで変動
-    * スポット価格は一般的に、オンデマンド価格を大幅に下回る（2015年3月時点で、平均で約8割下回っている）
-  * 「入札額 >= スポット価格」なら指定したインスタンスが起動
-  * 「入札額 < スポット価格」となるとインスタンスがターミネート
-  * 1時間未満の使用料は課金されない
-* Visibility Timeout + EC2 Spot Instances
-  * Spot Instanceを使っていて、受信1がターミネートされても、Visibility Timeout後に他のインスタンスが処理すれば良い
-  * コスト削減効果: 大
-* メッセージ送信/受信は1度にMAX10件
-  * SQSへのリクエストが少なければ少ないほどコスト効率が良い
-  * 送信例: AWS CLI で send-message-batch を利用
+
+### Visibility Timeoutとは
+* メッセージ受信者が複数の場合
+* 受信1がメッセージを取得
+* 30秒間(デフォルト設定。変更可能。最大12時間)、受信2と受信3にはメッセージを見せない(in Flight)
+* 受信1がキューからメッセージを削除せず、タイムアウトした場合はどの受信サーバーからもメッセージが受信可能に
+
+### Amazon EC2 - Spot Instances
+* Amazon EC2 の価格をお客様が指定できるシステム
+* 入札価格がその時点のスポット価格を上回っていれば、インスタンスを実行できる
+  * スポット価格は、需要と供給の関係に基づいてリアルタイムで変動
+  * スポット価格は一般的に、オンデマンド価格を大幅に下回る（2015年3月時点で、平均で約8割下回っている）
+* 「入札額 >= スポット価格」なら指定したインスタンスが起動
+* 「入札額 < スポット価格」となるとインスタンスがターミネート
+* 1時間未満の使用料は課金されない
+
+### Visibility Timeout + EC2 Spot Instances
+* Spot Instanceを使っていて、受信1がターミネートされても、Visibility Timeout後に他のインスタンスが処理すれば良い
+* コスト削減効果: 大
+
+### メッセージ送信/受信は1度にMAX10件
+* SQSへのリクエストが少なければ少ないほどコスト効率が良い
+* 送信例: AWS CLI で send-message-batch を利用
 ```
 $ aws sqs send-message-batch
 --queue-url https://リージョン.queue.amazonaws.com/アカウントID/blackbelt2015
@@ -211,7 +219,8 @@ $ aws sqs send-message-batch
 }, ...
 〜略〜
 ```
-  * 受信例: AWS CLI で receive-message の--max-number-ofmessagesオプションを利用(デフォルト1。最大10)
+
+* 受信例: AWS CLI で receive-message の--max-number-ofmessagesオプションを利用(デフォルト1。最大10)
 ```
 $ aws sqs receive-message
 --queue-url https://リージョン.queue.amazonaws.com/アカウントID/blackbelt2015
@@ -226,20 +235,22 @@ $ aws sqs receive-message
 },…
 ```
 
-* クライアントサイドでのバッファリング
-  * AWS SDK for Java の AmazonSQSAsyncClient を利用
-  * 最大10リクエストのバッファリング処理を簡単に実現可能
-  * 下記のパラメータを設定し微調整することが可能
-    * maxBatchOpenMs: 最大待ち時間をミリ秒単位で指定
-    * maxBatchSize: 1回のリクエストのメッセージの最大数を指定
-* Long Polling
-  * 受信者が頻繁にSQSに対してReceive Messageコールをするとリクエスト回数がかさみ、コスト効率がよくない
-  * "メッセージが取得出来るまで"待つ時間を設定できる(0秒から20秒)
-* Long Polling と Short Polling の使い分け
-  * 基本的に Long Polling 推奨(呼び出し元のCPU負荷, リクエスト課金等)
-    * 複数のキューを使う場合は、マルチスレッドでPolling
-  * Receive Message呼び出し後、直ちに応答が必要な場合はShortPolling
-    * 例えば複数のキューを単一スレッドでポーリングする場合、LongPollingするとその間、他のキューにアクセスできない
+### クライアントサイドでのバッファリング
+* AWS SDK for Java の AmazonSQSAsyncClient を利用
+* 最大10リクエストのバッファリング処理を簡単に実現可能
+* 下記のパラメータを設定し微調整することが可能
+  * maxBatchOpenMs: 最大待ち時間をミリ秒単位で指定
+  * maxBatchSize: 1回のリクエストのメッセージの最大数を指定
+
+### Long Polling
+* 受信者が頻繁にSQSに対してReceive Messageコールをするとリクエスト回数がかさみ、コスト効率がよくない
+* "メッセージが取得出来るまで"待つ時間を設定できる(0秒から20秒)
+
+### Long Polling と Short Polling の使い分け
+* 基本的に Long Polling 推奨(呼び出し元のCPU負荷, リクエスト課金等)
+  * 複数のキューを使う場合は、マルチスレッドでPolling
+* Receive Message呼び出し後、直ちに応答が必要な場合はShortPolling
+  * 例えば複数のキューを単一スレッドでポーリングする場合、LongPollingするとその間、他のキューにアクセスできない
 
 ## 最近アップデートされた新機能のご紹介
 1. SQS Message Attributes
