@@ -1,0 +1,14 @@
+## 2018/05/07: AWS BlackBelt
+* Amazon Simple Storage Service
+* Amazon DynamoDB
+* Amazon Simple Queue Service
+* Amazon Simple Notification Service
+* Amazon Simple Workflow Service
+* AWS Elastic Beanstalk
+* AWS CloudFormation
+* AWS SDK によって AWS のサービスを活用し、ソリューションを開発する。
+* サービスの認証に AWS Identity and Access Management (IAM) を使用する。
+* ユーザー認証にウェブアイデンティティフレームワークと Amazon Cognito を使用する。
+* Amazon ElastiCache と Amazon CloudFront を使用してアプリケーションのスケーラビリティを向上させる。
+* AWS Elastic Beanstalk と AWS CloudFormation を使用してアプリケーションをデプロイする。
+
