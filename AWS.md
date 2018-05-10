@@ -8,3 +8,11 @@
   * Simple Workflow Service
 * GIS
   * Geographic Information System
+* STS
+  * Security Token Service
+* LDAP
+  * 
+* IAM
+  * Identity And Access Management
+* SAML
+  * Security Assertion Markup Language
