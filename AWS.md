@@ -18,3 +18,5 @@
   * Security Assertion Markup Language
 * MAU
   * Monthly Active Users
+* ACL
+  * Access Control List 
