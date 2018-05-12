@@ -11,8 +11,10 @@
 * STS
   * Security Token Service
 * LDAP
-  * 
+  * Lightweight Directory Access Protocol
 * IAM
   * Identity And Access Management
 * SAML
   * Security Assertion Markup Language
+* MAU
+  * Monthly Active Users
