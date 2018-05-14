@@ -1,3 +1,14 @@
+## 2018/05/07: AWS 検証
+* IAM
+  * User
+  * Group
+  * Policy
+* Amazon Simple Storage Service(S3)
+  * ライフサイクル
+  * 暗号化
+  * バージョン管理機能
+  * アーカイブ及び復元
+
 ## 2018/05/07: AWS BlackBelt
 * Amazon Simple Storage Service
 * Amazon DynamoDB
