@@ -1,4 +1,7 @@
-## 2018/05/07: AWS 検証
+## 2018/05/21: AWS復習
+* Beanstalk
+
+## 2018/05/14: AWS 検証
 * IAM
   * User
   * Group
@@ -8,6 +11,7 @@
   * 暗号化
   * バージョン管理機能
   * アーカイブ及び復元
+* Connect to EC2
 
 ## 2018/05/07: AWS BlackBelt
 * Amazon Simple Storage Service
