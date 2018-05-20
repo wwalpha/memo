@@ -25,3 +25,7 @@
   * config VPC
   * config subnet
   * config security group when created
+* Create EC2 from beanstalk
+  * config VPC
+  * config Environment Variable
+  * config security group after created
