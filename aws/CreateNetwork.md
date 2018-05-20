@@ -19,7 +19,8 @@
   * RDS
     * Inbound: EC2
     * Outbound: 0.0.0.0/0
-  * ELB?
+  * ELB
+    * Inbound: 0.0.0.0/0
 * Create RDS subnet group
 * Create/Restore RDS
   * config VPC
