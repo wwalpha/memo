@@ -1,4 +1,6 @@
 * Create VPC(10.0.0.0/16)
+  * Enable DNS hostnames
+  * Enable DNS resolution
 * Create Subnet1(10.0.1.0/24) attach to VPC
 * Create Subnet2(10.0.2.0/24) attach to VPC
 * Create Internet Gateway(connect to physical network)
