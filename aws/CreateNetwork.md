@@ -11,3 +11,7 @@
   * Subnet Associations
     * Add Subnet1 Associate
     * Add Subnet2 Associate
+* Design security group
+  * Internet access
+  * EC2 and RDS group1 for az1
+  * EC2 and RDS group2 for az2
