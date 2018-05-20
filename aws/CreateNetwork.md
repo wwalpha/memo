@@ -20,3 +20,8 @@
     * Inbound: EC2
     * Outbound: 0.0.0.0/0
   * ELB?
+* Create RDS subnet group
+* Create/Restore RDS
+  * config VPC
+  * config subnet
+  * config security group when created
