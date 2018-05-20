@@ -4,7 +4,7 @@
 * Create Subnet1(10.0.1.0/24) attach to VPC
 * Create Subnet2(10.0.2.0/24) attach to VPC
 * Create Internet Gateway(connect to physical network)
-* Create Route Table attach to VPC
+* Edit Route Table which attached to VPC
   * Routes
     * Destination: 0.0.0.0/0
     * Target: Internet Gateway
@@ -18,5 +18,5 @@
     * Outbound: 0.0.0.0/0
   * RDS
     * Inbound: EC2
-    * Outbound: EC2
+    * Outbound: 0.0.0.0/0
   * ELB?
