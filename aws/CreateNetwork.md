@@ -27,5 +27,9 @@
   * config security group when created
 * Create EC2 from beanstalk
   * config VPC
-  * config Environment Variable
+  * config Environment Variable
   * config security group after created
+* Create Target Group
+  * add instance to target group
+* Create ELB
+  * after provisioning test traffic
