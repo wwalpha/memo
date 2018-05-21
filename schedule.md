@@ -7,6 +7,24 @@
 * DHCPオプションセット??
 * CloudWatch　基本メタ
 * CloudWatch　カスタム
+* auto scalingで扱うインスタンスの種類???
+* auto scaling group
+  * auto scalingの台数????
+* S3 パフォーマンスとの最適化
+* S3 web strage pattern
+* AWS STS (AWS Security Token Service）
+* AWS federationによる連携
+* IAMのベストプラクティスは読んでおいたほうがよい。
+  * http://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/best-practices.html
+* CDNサービスの概要
+* エッジロケーションとは何か？
+* 署名つきURLを使った配信
+
+
+
+
+
+
 
 ## 2018/05/14: AWS 検証
 * IAM
