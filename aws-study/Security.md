@@ -1,0 +1,10 @@
+## Security
+* AWSを利用する上でのセキュリティ及び、コンプライアンスに関しての理解
+* 抑えておきたい点
+  * AWSの共有責任モデルを理解する。
+  * 侵入テスト
+    * 侵入テストを行う時は自分の環境でもAWSへの事前連絡が必要
+  * AWSのセキュリティのベストプラクティスを読んでおくべき
+    * https://d0.awsstatic.com/International/ja_JP/Whitepapers/AWS_Security_Best_Practices.pdf
+  * 脆弱性レポート
+    * https://aws.amazon.com/jp/security/vulnerability-reporting/

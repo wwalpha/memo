@@ -19,7 +19,9 @@
 * CDNサービスの概要
 * エッジロケーションとは何か？
 * 署名つきURLを使った配信
-
+* OpsWork???
+* AWSのセキュリティのベストプラクティスを読んでおくべき
+  * https://d0.awsstatic.com/International/ja_JP/Whitepapers/AWS_Security_Best_Practices.pdf
 
 
 
