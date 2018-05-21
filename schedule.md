@@ -1,5 +1,12 @@
 ## 2018/05/21: AWS復習
-* Beanstalk
+* EBS最適化インスタンス
+* AMIのS3移動
+* AMIの暗号化
+* 仮想VPNゲートウェイ??
+* プレースメントグループ??
+* DHCPオプションセット??
+* CloudWatch　基本メタ
+* CloudWatch　カスタム
 
 ## 2018/05/14: AWS 検証
 * IAM
