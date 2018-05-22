@@ -8,6 +8,7 @@
 * CloudWatch　基本メタ
 * CloudWatch　カスタム
 * auto scalingで扱うインスタンスの種類???
+  * ManualScalingパターンやSWF-Scalingパターン
 * auto scaling group
   * auto scalingの台数????
 * S3 パフォーマンスとの最適化
