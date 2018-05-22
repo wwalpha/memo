@@ -1,3 +1,7 @@
+* OLTP
+  * Online Transaction Processing
+* OLAP
+  * Online Analytical Processing
 * VPC
   * Virtual Private Cloud
 * EFS
