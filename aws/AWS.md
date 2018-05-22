@@ -1,3 +1,5 @@
+* CORS
+  * Cross Origin Resource Sharing 
 * OLTP
   * Online Transaction Processing
 * OLAP
