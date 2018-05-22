@@ -1,4 +1,6 @@
 ## 2018/05/21: AWS復習
+* http://docs.aws.amazon.com/AmazonS3/latest/dev/DataDurability.html
+* https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html
 * EBS最適化インスタンス
 * AMIのS3移動
 * AMIの暗号化
