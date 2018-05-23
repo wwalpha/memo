@@ -10,6 +10,7 @@
 
 
 ## 2018/05/21: AWS復習
+* GSI, LSI
 * CloudFormation Functions
 * Kinesis
 * https://docs.aws.amazon.com/AmazonS3/latest/dev/DataDurability.html
