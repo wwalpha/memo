@@ -1,11 +1,11 @@
-# Queuing Chain Pattern
-![Queuing_Chain_Pattern](./BatchProcessing/Queuing_Chain_Pattern.png)
+# Queuing Chain
+![Queuing_Chain](./BatchProcessing/Queuing_Chain.png)
 
-# Priority Queue Pattern
-![Priority_Queue_Pattern](./BatchProcessing/Priority_Queue_Pattern.png)
+# Priority Queue
+![Priority_Queue](./BatchProcessing/Priority_Queue.png)
 
-# Job Observer Pattern
-![Job_Observer_Pattern](./BatchProcessing/Job_Observer_Pattern.png)
+# Job Observer
+![Job_Observer](./BatchProcessing/Job_Observer.png)
 
-# Scheduled Autoscaling Pattern
-![Scheduled_Autoscaling_Pattern](./BatchProcessing/Scheduled_Autoscaling_Pattern.png)
+# Scheduled Autoscaling
+![Scheduled_Autoscaling](./BatchProcessing/Scheduled_Autoscaling.png)
