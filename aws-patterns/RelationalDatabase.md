@@ -1,14 +1,11 @@
-# Snapshot
-![Snapshot](./basics/Snapshot.png)
+# DB Replication
+![DB_Replication](./RelationalDatabase/DB_Replication.png)
 
-# Stamp
-![Stamp](./basics/Stamp.png)
+# Inmemory DB Cache
+![Inmemory_DB_Cache](./RelationalDatabase/Inmemory_DB_Cache.png)
 
-# ScaleUp
-![ScaleUp](./basics/ScaleUp.png)
+# Read Replica
+![Read_Replica](./RelationalDatabase/Read_Replica.png)
 
-# Scale Out
-![ScaleOut](./basics/ScaleOut.png)
-
-# Ondemand Disk
-![Ondemand Disk](./basics/OndemandDisk.png)
+# Sharding Write
+![Sharding_Write](./RelationalDatabase/Sharding_Write.png)

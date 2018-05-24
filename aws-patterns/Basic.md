@@ -1,14 +1,14 @@
 # Snapshot
-![Snapshot](./Basics/Snapshot.png)
+![Snapshot](./Basic/Snapshot.png)
 
 # Stamp
-![Stamp](./Basics/Stamp.png)
+![Stamp](./Basic/Stamp.png)
 
 # Scale Up
-![ScaleUp](./Basics/ScaleUp.png)
+![ScaleUp](./Basic/ScaleUp.png)
 
 # Scale Out
-![ScaleOut](./Basics/ScaleOut.png)
+![ScaleOut](./Basic/ScaleOut.png)
 
 # Ondemand Disk
-![Ondemand Disk](./Basics/OndemandDisk.png)
+![Ondemand Disk](./Basic/OndemandDisk.png)

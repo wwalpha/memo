@@ -1,14 +1,11 @@
-# Snapshot
-![Snapshot](./basics/Snapshot.png)
+# Queuing Chain Pattern
+![Queuing_Chain_Pattern](./BatchProcessing/Queuing_Chain_Pattern.png)
 
-# Stamp
-![Stamp](./basics/Stamp.png)
+# Priority Queue Pattern
+![Priority_Queue_Pattern](./BatchProcessing/Priority_Queue_Pattern.png)
 
-# ScaleUp
-![ScaleUp](./basics/ScaleUp.png)
+# Job Observer Pattern
+![Job_Observer_Pattern](./BatchProcessing/Job_Observer_Pattern.png)
 
-# Scale Out
-![ScaleOut](./basics/ScaleOut.png)
-
-# Ondemand Disk
-![Ondemand Disk](./basics/OndemandDisk.png)
+# Scheduled Autoscaling Pattern
+![Scheduled_Autoscaling_Pattern](./BatchProcessing/Scheduled_Autoscaling_Pattern.png)

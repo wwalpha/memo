@@ -1,14 +1,9 @@
-# Snapshot
-![Snapshot](./basics/Snapshot.png)
+# Write_Proxy
+![Write_Proxy](./UploadingData/Write_Proxy.png)
 
-# Stamp
-![Stamp](./basics/Stamp.png)
+# Storage_Index
+![Storage_Index](./UploadingData/Storage_Index.png)
 
-# ScaleUp
-![ScaleUp](./basics/ScaleUp.png)
+# Direct_Object_Upload
+![Direct_Object_Upload](./UploadingData/Direct_Object_Upload.png)
 
-# Scale Out
-![ScaleOut](./basics/ScaleOut.png)
-
-# Ondemand Disk
-![Ondemand Disk](./basics/OndemandDisk.png)

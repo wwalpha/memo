@@ -1,14 +1,14 @@
-# Web Storage Pattern
-![Web_Storage_Pattern](./ProcessingStaticContent/Web_Storage_Pattern.png)
+# Web Storage
+![Web_Storage](./ProcessingStaticContent/Web_Storage.png)
 
-# Direct Hosting Pattern
-![Direct_Hosting_Pattern](./ProcessingStaticContent/Direct_Hosting_Pattern.png)
+# Direct Hosting
+![Direct_Hosting](./ProcessingStaticContent/Direct_Hosting.png)
 
-# Private Distribution Pattern
-![Private_Distribution_Pattern](./ProcessingStaticContent/Private_Distribution_Pattern.png)
+# Private Distribution
+![Private_Distribution](./ProcessingStaticContent/Private_Distribution.png)
 
-# Cache Distribution Pattern
-![Cache_Distribution_Pattern](./ProcessingStaticContent/Cache_Distribution_Pattern.png)
+# Cache Distribution
+![Cache_Distribution](./ProcessingStaticContent/Cache_Distribution.png)
 
-# Rename Distribution Pattern
-![Rename_Distribution_Pattern](./ProcessingStaticContent/Rename_Distribution_Pattern.png)
+# Rename Distribution
+![Rename_Distribution](./ProcessingStaticContent/Rename_Distribution.png)
