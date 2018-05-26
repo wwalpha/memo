@@ -31988,7 +31988,7 @@
     "Join",
     "Not",
     "Or",
-    "Select",
+    "Fn::Select",
     "Sub",
     "Split"
   ]
