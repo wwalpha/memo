@@ -1,4 +1,27 @@
 {
     "editor.fontSize": 12,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json": [
+            "cf.yaml",
+            "cf.yml"
+        ]
+    },
+    "yaml.customTags": [
+        "!Ref",
+        "!Sub",
+        "!GetAZs",
+        "!GetAtt",
+        "!ImportValue",
+        "!Condition",
+        "!Select",
+        "!Equals",
+        "!If",
+        "!FindInMap",
+        "!Join",
+        "!Not",
+        "!Or",
+        "!Sub",
+        "!Split"
+    ]
 }
