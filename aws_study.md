@@ -20,9 +20,9 @@
 
 - [ ] [ElasticCache.md](./aws-study/ElasticCache.md)
 
-- [ ] [ELB.md](./aws-study/ELB.md)
+- [X] [ELB.md](./aws-study/ELB.md)
 
-- [ ] [Glacier.md](./aws-study/Glacier.md)
+- [X] [Glacier.md](./aws-study/Glacier.md)
 
 - [ ] [IAM.md](./aws-study/IAM.md)
 
