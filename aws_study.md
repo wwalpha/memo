@@ -10,7 +10,7 @@
 
 - [ ] [CloudWatch.md](./aws-study/CloudWatch.md)
 
-- [ ] [DynamoDB.md](./aws-study/DynamoDB.md)
+- [X] [DynamoDB.md](./aws-study/DynamoDB.md)
 
 - [ ] [EBS.md](./aws-study/EBS.md)
 
