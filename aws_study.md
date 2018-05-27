@@ -4,7 +4,7 @@
 
 - [ ] [CloudFormation.md](./aws-study/CloudFormation.md)
 
-- [ ] [CloudFront.md](./aws-study/CloudFront.md)
+- [X] [CloudFront.md](./aws-study/CloudFront.md)
 
 - [ ] [CloudTrail.md](./aws-study/CloudTrail.md)
 
