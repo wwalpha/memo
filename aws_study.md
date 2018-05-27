@@ -16,7 +16,7 @@
 
 - [ ] [EC2.md](./aws-study/EC2.md)
 
-- [ ] [ElasticBeanstalk.md](./aws-study/ElasticBeanstalk.md)
+- [X] [ElasticBeanstalk.md](./aws-study/ElasticBeanstalk.md)
 
 - [ ] [ElasticCache.md](./aws-study/ElasticCache.md)
 
