@@ -12,7 +12,7 @@
 
 - [X] [DynamoDB.md](./aws-study/DynamoDB.md)
 
-- [ ] [EBS.md](./aws-study/EBS.md)
+- [X] [EBS.md](./aws-study/EBS.md)
 
 - [ ] [EC2.md](./aws-study/EC2.md)
 
