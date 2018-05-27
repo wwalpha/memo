@@ -16,3 +16,8 @@
   - [ ] 加重ルーティングポリシー
     - [ ] 指定した比率で複数のリソースにトラフィックをルーティングするのに使用します。
   - [ ] Aliasレコードでzone apexを解決する。
+- [ ] Simple Routing
+- [ ] Weighted Routing
+- [ ] Latency-based Routing
+- [ ] Failover Routing
+- [ ] Geolocation Routing

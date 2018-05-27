@@ -20,3 +20,18 @@
   - [X] 暗号化
   - [X] 暗号化されたAMIはprivateとなり、他のアカウントと共有することができない。
 - [ ] 基盤にしているソフトウェアは Xen
+- [ ] Placement group
+- [ ] Amazon Instance Store/EBS-backed instance
+- [ ] Security 
+  - [ ] EC2 Key Pairs
+  - [ ] Security Groups
+  - [ ] Connection Tracking
+  - [ ] IAM Role
+- [ ] Tags 
+  - [ ] billing Allocation report
+  - [ ] Restriction 
+    - [ ] Maximum tags 10
+    - [ ] Maximum key length – 128 Unicode characters in UTF-8
+    - [ ] Maximum value length – 256 Unicode characters in UTF-8
+  - [ ] show 
+    - [ ] keyName = value1|value2|value3 or keyName = key1|value1;key2|value2

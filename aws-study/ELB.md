@@ -9,3 +9,15 @@
   - [X] NLB利用できない、そもそも試験にNLBでない
 - [X] ELB自体が自動でscalingすること
 - [X] 負荷が多くなることがある場合はPre-warming(暖機運転) 申請ができること。
+- [ ] Pre-Warming
+- [ ] Connection Draining
+- [ ] Client-Side SSL certificates
+- [ ] Server Order Preference
+- [ ] Cross-Zone
+- [ ] SSL termination
+- [ ] ELB HTTPS listener does not support Client-Side SSL certificates
+- [ ] autoscaling 
+  - [ ] Scheduled scaling can not be overlap
+  - [ ] choose greatest impact when Multiple Policies
+  - [ ] cooldown period
+  - [ ] Termination Policy
