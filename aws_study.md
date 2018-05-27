@@ -26,11 +26,11 @@
 
 - [ ] [IAM.md](./aws-study/IAM.md)
 
-- [ ] [KMS.md](./aws-study/KMS.md)
+- [X] [KMS.md](./aws-study/KMS.md)
 
 - [ ] [OpsWork.md](./aws-study/OpsWork.md)
 
-- [ ] [RDS.md](./aws-study/RDS.md)
+- [X] [RDS.md](./aws-study/RDS.md)
 
 - [ ] [Route53.md](./aws-study/Route53.md)
 
@@ -38,11 +38,11 @@
 
 - [ ] [Security.md](./aws-study/Security.md)
 
-- [ ] [SNS.md](./aws-study/SNS.md)
+- [X] [SNS.md](./aws-study/SNS.md)
 
 - [ ] [SQS.md](./aws-study/SQS.md)
 
-- [ ] [SWF.md](./aws-study/SWF.md)
+- [X] [SWF.md](./aws-study/SWF.md)
 
 - [ ] [TrustedAdvisor.md](./aws-study/TrustedAdvisor.md)
 
