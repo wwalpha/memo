@@ -9,9 +9,9 @@
   * [ ] 目標月2ドル
 * [ ] API: Java -> NodeJS + Lambda
 * [ ] DB: RDS -> DynamoDB
-* [ ] DynamoDB Table構築
-* [ ] DynamoDBデータ登録
-* [ ] SAMの整備
+* [ ] DynamoDB
+  * [ ] Table構築
+  * [ ] データ登録
 * [ ] sam-local
   * [ ] API Gateway構築
   * [ ] Lambdaテスト
