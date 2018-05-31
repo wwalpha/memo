@@ -5,7 +5,7 @@
 ## 2018/06/04: AWS Solution復習
 
 ## 2018/05/28: AWS CloudPattern
-* [ ] http://aws.clouddesignpattern.org/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8
+* [ ] [clouddesignpattern](http://aws.clouddesignpattern.org/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8)
   * [ ] 目標月2ドル
 * [ ] API: Java -> NodeJS + Lambda
 * [ ] DB: RDS -> DynamoDB
