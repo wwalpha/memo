@@ -5,6 +5,7 @@
 ## 2018/06/04: AWS Solution復習
 * AWS WorkSpaces
 * AWS Storage Gateway
+* Direct Connect
 
 ## 2018/05/28: AWS CloudPattern
 * [ ] [clouddesignpattern](http://aws.clouddesignpattern.org/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8)
