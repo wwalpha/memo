@@ -3,6 +3,8 @@
 ## 2018/06/11: AWS Solution復習
 
 ## 2018/06/04: AWS Solution復習
+* AWS WorkSpaces
+* AWS Storage Gateway
 
 ## 2018/05/28: AWS CloudPattern
 * [ ] [clouddesignpattern](http://aws.clouddesignpattern.org/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8)
@@ -13,8 +15,8 @@
   * [ ] Table構築
   * [ ] データ登録
 * [ ] sam-local
-  * [ ] API Gateway構築
-  * [ ] Lambdaテスト
+  * [X] API Gateway構築
+  * [X] Lambdaテスト
   * [ ] Lambda deploy
 
 ## 2018/05/21: AWS復習
