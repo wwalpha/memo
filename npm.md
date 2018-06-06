@@ -11,4 +11,8 @@ npm publish [folder]
 
 // list config
 npm config list
+
+// list installed package
+npm list --depth=0
 ```
+
