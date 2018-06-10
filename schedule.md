@@ -3,8 +3,8 @@
 ## 2018/06/11: AWS Solution復習
 
 ## 2018/06/04: AWS Solution復習
-* [ ] AWS WorkSpaces
-* [ ] AWS Storage Gateway
+* [X] AWS WorkSpaces
+* [X] AWS Storage Gateway
 * [ ] Direct Connect
 
 ## 2018/05/28: AWS CloudPattern
