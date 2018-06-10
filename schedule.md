@@ -1,8 +1,10 @@
-## 2018/06/18: AWS Solution試験
+## 2018/06/25: AWS Solution試験
+
+## 2018/06/18: AWS Solution復習
 
 ## 2018/06/11: AWS Solution復習
 
-## 2018/06/04: AWS Solution復習
+## 2018/06/04: AWS Solution復習 -> 延期
 * [X] AWS WorkSpaces
 * [X] AWS Storage Gateway
 * [ ] Direct Connect
