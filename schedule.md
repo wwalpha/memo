@@ -1,6 +1,12 @@
 ## 2018/06/25: AWS Solution試験
 
 ## 2018/06/18: AWS Solution復習
+* [ ] Raid
+  * [ ] Raid0
+  * [ ] Raid1
+  * [ ] Raid5
+  * [ ] Raid10
+  * [ ] Raid11?
 
 ## 2018/06/11: AWS Solution復習
 
