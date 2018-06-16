@@ -12,7 +12,7 @@
 * [ ] SAA
   * [X] Chapter1
   * [X] Chapter2
-  * [ ] Chapter3
+  * [X] Chapter3
   * [ ] Chapter4
   * [ ] Chapter5
   * [ ] Chapter6
