@@ -9,6 +9,18 @@
   * [ ] Raid11?
 
 ## 2018/06/11: AWS Solution復習
+* [ ] SAA
+  * [X] Chapter1
+  * [X] Chapter2
+  * [ ] Chapter3
+  * [ ] Chapter4
+  * [ ] Chapter5
+  * [ ] Chapter6
+  * [ ] Chapter7
+  * [ ] Chapter8
+  * [ ] Chapter9
+  * [ ] Chapter10
+  * [ ] Chapter11
 
 ## 2018/06/04: AWS Solution復習 -> 延期
 * [X] AWS WorkSpaces
