@@ -1,6 +1,8 @@
 ## 2018/06/25: AWS Solution試験
 
-## 2018/06/18: AWS Solution復習
+## 2018/06/18: AWS Solution復習+
+* [ ] Elastic Network Interface
+* [ ] Route53
 * [ ] EC2 Type
 * [ ] Raid
   * [ ] Raid0
