@@ -1,6 +1,7 @@
 ## 2018/06/25: AWS Solution試験
 
 ## 2018/06/18: AWS Solution復習
+* [ ] EC2 Type
 * [ ] Raid
   * [ ] Raid0
   * [ ] Raid1
