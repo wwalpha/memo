@@ -1,3 +1,8 @@
+## 実験項目
+* SQSの標準キューでシーケンス情報でFIFO実現
+* SQSのFIFOキューでFIFO実現
+* 一時認証(STS/SAML)の認証
+
 ## 2018/06/25: AWS Solution試験
 
 ## 2018/06/18: AWS Solution復習+
