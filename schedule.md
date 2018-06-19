@@ -1,6 +1,8 @@
 ## 2018/06/25: AWS Solution試験
 
 ## 2018/06/18: AWS Solution復習+
+* [ ] EC2Config
+* [ ] EC2 Classic
 * [ ] Elastic Network Interface
 * [ ] Route53
 * [ ] EC2 Type
