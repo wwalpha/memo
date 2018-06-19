@@ -10,7 +10,19 @@
 * [ ] EC2 Classic
 * [ ] Elastic Network Interface
 * [ ] Route53
-* [ ] EC2 Type
+* [ ] EC2
+  * 汎用
+    * T2
+    * M5
+    * M4
+  * コンピューティング最適化
+    * C5 | C4
+  * メモリ最適化
+    * x1e | X1 | R4
+  * 高速コンピューティング
+    * P3  | G3 | F1
+  * ストレージ最適化
+    * H1  | I3 | D2
 * [ ] Raid
   * [ ] Raid0
   * [ ] Raid1
