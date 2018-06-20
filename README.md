@@ -10,7 +10,7 @@
 * [ ] EC2 Classic
 * [ ] Elastic Network Interface
 * [ ] Route53
-* [ ] EC2
+* [X] EC2
   * 汎用
     * T2  | M5 | M4
   * コンピューティング最適化
@@ -21,12 +21,15 @@
     * P3  | G3 | F1
   * ストレージ最適化
     * H1  | I3 | D2
-* [ ] Raid
-  * [ ] Raid0
-  * [ ] Raid1
-  * [ ] Raid5
-  * [ ] Raid10
-  * [ ] Raid11?
+* [X] Raid
+  * [X] Raid0: ストライピング(2HDD)
+    * ブロック単位で並行的に書込み、処理速度が速い
+  * [X] Raid1: ミラーリング(2HDD)
+  * [X] Raid5: **パリティ**RAID(3HDD)
+  * [X] Raid6: **ダブルパリティ**RAID(4HDD)
+  * [X] Raid0+1: Raid0 + Raid1 高速(4HDD)
+  * [X] Raid1+0: Raid1 + Raid0 耐久性(4HDD)
+  * [X] Raid5+0: Raid5 + Raid0 耐久性(6HDD)
 
 ## 2018/06/11: AWS Solution復習
 * [ ] SAA
