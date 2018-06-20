@@ -6,6 +6,10 @@
 ## 2018/06/25: AWS Solution試験
 
 ## 2018/06/18: AWS Solution復習+
+* [ ] CPU Burst
+* [ ] HVM
+* [ ] 拡張ネットワーキング
+* [ ] 準仮想化
 * [ ] EC2Config
 * [ ] EC2 Classic
 * [ ] Elastic Network Interface
