@@ -9,7 +9,8 @@
 * [ ] CPU Burst
 * [ ] HVM
 * [ ] 拡張ネットワーキング
-* [ ] 準仮想化
+* [X] 準仮想化
+  * 仮想機械へのソフトウェアインタフェースを提供する仮想化技術の一つである
 * [ ] EC2Config
 * [ ] EC2 Classic
 * [ ] Elastic Network Interface
