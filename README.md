@@ -3,7 +3,13 @@
 * [ ] SQSのFIFOキューでFIFO実現
 * [ ] 一時認証(STS/SAML)の認証
 
-## 2018/06/25: AWS Solution試験
+## 2018/06/25 ~ 2018/07/22: **IoT**やりましょう
+* [X] SAA試験
+* [ ] IoTについて
+  * [ ] DialogFlow
+  * [ ] Firebase
+  * [ ] Bravia
+* [ ] 赤外線について
 
 ## 2018/06/18: AWS Solution復習+
 * [ ] CPU Burst
