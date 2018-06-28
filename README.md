@@ -7,6 +7,7 @@
 * 06/28
   * Windows Ver. [TV SideView](https://www.microsoft.com/ja-jp/p/tv-sideview/9wzdncrfj2fw?activetab=pivot%3aoverviewtab) download
   * Wireshark download, SideViewのdiscoveryを監視
+  * [mDNS + CastV2](https://qiita.com/vanx2/items/3c20bf8e4111da9eb68d)
   * [参考](http://shimobepapa.hatenadiary.jp/entry/2016/12/18/002916)
 * [X] SAA試験
 * [ ] IoTについて
