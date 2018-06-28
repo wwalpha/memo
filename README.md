@@ -4,6 +4,10 @@
 * [ ] 一時認証(STS/SAML)の認証
 
 ## 2018/06/25 ~ 2018/07/22: **IoT**やりましょう
+* 06/28
+  * Windows Ver. [TV SideView](https://www.microsoft.com/ja-jp/p/tv-sideview/9wzdncrfj2fw?activetab=pivot%3aoverviewtab) download
+  * Wireshark download, SideViewのdiscoveryを監視
+  * [参考](http://shimobepapa.hatenadiary.jp/entry/2016/12/18/002916)
 * [X] SAA試験
 * [ ] IoTについて
   * [ ] DialogFlow
