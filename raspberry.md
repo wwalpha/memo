@@ -125,3 +125,9 @@ pyenv global system
 ## WIFI設定
 GUIの右上に無線LAN接続のマークがある
 
+## SSH
+```
+ssh pi@xx.xx.xx.xx
+
+password: raspberrypi
+```
