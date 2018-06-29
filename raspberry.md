@@ -8,6 +8,8 @@ MacでOSインストールから、WIFI、SSH設定環境までの簡単手順�
   * The Official supported Raspberry Pi Operating System - based on debian
 
 ## Install OS
+Complete KitはNOOBSインストール済みのSDCardまで提供していますので、下記コマンドは未検証です。
+
 * Unzip
 ```s
 unzi NOOBS_lite_v2_8.zip
@@ -40,3 +42,36 @@ sudo apt-get install -y vim
 sudo rpi-update
 sudo reboot
 ```
+
+## Nodejs
+### Install
+* インストールコマンド
+```s
+sudo apt-get install -y nodejs npm
+sudo npm cache clean
+sudo npm install npm n -g
+sudo n lts
+sudo npm install npm -g
+```
+* インストール可能のバージョン一覧
+```s
+n ls
+```
+* バージョン指定のインストール
+```s
+sudo n 8.11.3
+```
+
+### Versions
+SSH接続でインストールした場合、最新版に切り替わるため、SSHの再接続が必要です。
+
+* インストール済バージョン確認
+```s
+node -v
+npm -v
+```
+* 複数バージョン間の切替
+```s
+```
+
+### 
