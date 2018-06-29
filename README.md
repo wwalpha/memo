@@ -4,6 +4,8 @@
 * [ ] 一時認証(STS/SAML)の認証
 
 ## 2018/06/25 ~ 2018/07/22: **IoT**やりましょう
+* [X] Raspberry Pi install
+* [X] IOS App Deploy
 * 06/28
   * Windows Ver. [TV SideView](https://www.microsoft.com/ja-jp/p/tv-sideview/9wzdncrfj2fw?activetab=pivot%3aoverviewtab) download
   * Wireshark download, SideViewのdiscoveryを監視
