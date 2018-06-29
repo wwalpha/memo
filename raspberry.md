@@ -74,4 +74,50 @@ npm -v
 ```s
 ```
 
-### 
+## Python3
+### Install For pyenv
+```s
+sudo apt-get install -y git openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev
+```
+
+### Get pyenv
+```
+git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+```
+
+### Set Env
+```
+sudo vi ~/.bash_profile
+
+# 以下の内容を追記
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+```
+
+### Python Install
+* インストールできるバージョンの一覧表示
+```
+pyenv install --list
+```
+
+* バージョン指定し、インストール
+```s
+pyenv install 3.6.6
+```
+
+* 現状のpythonのバージョンを確認
+```
+python --version
+Python 2.7.5
+```
+
+* Python3に切替
+```
+pyenv global 3.6.6
+```
+
+* Python2に切替
+```
+pyenv global system
+```
