@@ -121,3 +121,7 @@ pyenv global 3.6.6
 ```
 pyenv global system
 ```
+
+## WIFI設定
+GUIの右上に無線LAN接続のマークがある
+
