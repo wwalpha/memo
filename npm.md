@@ -16,3 +16,4 @@ npm config list
 npm list --depth=0
 ```
 
+process.on('unhandledRejection', console.dir);
