@@ -6,4 +6,3 @@
   * 秘密鍵を無くしたEC2インスタンスのAMIを作って
   * AMIからEC2インスタンスを作成する際に、新しいKey Pairを適用する
 
-* http://sso.btmu-ai.com/openam/idpssoinit?metaAlias=/idp&spEntityID=urn:amazon:webservices:dev&RelayState=https://faq-dev.btmu-ai.com/v1/saml/auth
