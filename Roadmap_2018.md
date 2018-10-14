@@ -79,3 +79,70 @@
 * [X] AWS
 * [ ] Goolge Cloud
 * [ ] Azure
+
+# Front-end
+## Learn HTML
+
+## Basics of CSS
+* [X] Learn basic of CSS
+* [X] Learn how to use Grid and Flexbox
+* [X] Media Queries and Reponsive Websites
+* [X] Style the HTML pages that you made in last step
+
+## Basics of JavaScript
+* [X] Learn the syntax and basic constructs
+* [ ] Learn how to mainpulate DOM
+* [ ]
+* [ ]
+* [X] Learn ES6+ new features and writing modular JavaScript
+
+## Make some responsive website and add some interactivity with JavaScript
+
+## Give yourself a pat on the back. you are getting there
+
+## Package Managers
+* [X] NPM
+* [X] Yarn
+
+## CSS Preprocessors
+* [ ] Sass 
+* [ ] PostCSS
+
+## CSS Framework
+* [X] Bootstrap 
+* [ ] Materialize CSS
+* [ ] Bulma
+
+## CSS Architecture
+* [ ] BEM
+* [ ] Atomic
+
+## Build Tools
+* [X] Webpack
+* [ ] Rollup
+* [ ] Parcel
+* [X] NPM Scripts (Task Runner)
+* [ ] Gulp (Task Runner)
+* [X] ESLint
+
+## Pick a Framework
+* [X] React.js
+  * [X] Redux
+  * [ ] Mobx
+* [ ] Vue.js
+  * [ ] vuex
+* [ ] Angular
+  * [ ] Rx.js
+  * [ ] ngrx
+
+## Testing you Apps
+* [ ] Jest
+* [ ] Mocha
+
+## Static Type Checkers
+* [X] TypeScript
+* [ ] Flow
+
+## Server Side Rendering
+....
+
