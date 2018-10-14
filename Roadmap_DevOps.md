@@ -1,10 +1,26 @@
-## OS
-* [ ] Ubuntu
-* [ ] Bash
-* [ ] Compile app from source
-* [ ] System Performance
-* [ ] Process Monitoring
-* [ ] Text Tools
+# DevOps
+## Learn a programming language
+* [ ] Go
+* [ ] Rust
+* [ ] C / C++
+* [X] Python
+* [ ] Ruby 
+* [X] Node.js
+
+## Understand different OS Concepts
+* [ ] I/O Management
+* [ ] Virtualization
+* [ ] Memory / Storage
+* [ ] File System
+* [ ] Process Management
+* [ ] Threads
+* [ ] Sockets
+
+## Learn about managing servers
+* Operation System
+  * [X] Windows
+* Leran to live in Terminal
+
 
 ## Setup
 * [ ] Reverse Server
