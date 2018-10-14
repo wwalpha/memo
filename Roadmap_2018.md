@@ -80,6 +80,59 @@
 * [ ] Goolge Cloud
 * [ ] Azure
 
+# Back-end
+## Pick a language
+### Scripting Languages
+* [X] Python
+* [ ] Ruby
+* [ ] PHP
+* [X] Node.js
+
+### Functional Languages
+* [ ] Elixir
+* [ ] Scala
+* [ ] Erlang
+
+### Other options
+* [X] Java
+* [X] .Net
+* [ ] Golang
+* [ ] Rust
+
+## Learn Package Manager
+* [ ] composer (PHP)
+* [ ] npm (Node.js)
+* [ ] pip (Python)
+* [ ] gems (Ruby)
+
+## Standards and Best Practices
+
+## Make and Distribute Some Package/Library
+
+## Learn about Testing
+
+## Write Tests
+
+## Learn Relational Database
+* [ ] MySQL
+* [ ] MariaDB
+* [ ] PostgreSQL
+
+## Learn a framework
+
+## Learn a NoSQL Database
+* [ ] MongoDB
+* [ ] DynamoDB
+
+## Caching
+* [ ] Memcached
+* [ ] Redis
+
+## Creating RESTFul APIs
+
+## Authentication
+
+
 # Front-end
 ## Learn HTML
 
