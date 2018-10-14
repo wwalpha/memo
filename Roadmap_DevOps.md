@@ -18,37 +18,64 @@
 
 ## Learn about managing servers
 * Operation System
+  * [ ] Linux
   * [X] Windows
 * Leran to live in Terminal
+  * [ ] Learn Bash Script
+  * [ ] Vim / Nano / PowerShell / Emacs
+  * [ ] Compling app from source
+  * [ ] System performance
+  * [ ] Text tools
+  * [ ] Process Monitoring
+  * [ ] Network
 
+## Networking and Security
+* [X] DNS
+* [ ] OSI Model
+* [X] Http
+* [X] Https
+* [X] FTP
+* [ ] SSL / TLS
 
-## Setup
+## What is and how to setup a ____
 * [ ] Reverse Server
 * [ ] Proxy Server
 * [ ] Forward Server
 * [ ] Load Balancer
 * [ ] Firewall
+* [ ] Web Server
+  * [ ] Apache
+  * [ ] Nginx
 
-## Web Server
-* [ ] Apache
-* [ ] Nginx
+## Learn Infrastructure as Code
+### Containers
+* [ ] docker
 
-## Infrastructure Provising
-* [ ] TerraForm
-* [ ] CloudFormation
-
-## Configuration Management
+### Configuration Management
 * [ ] Ansible
 * [ ] Chef
 
-## Containers
-* [ ] docker
+### Infrastructure Provising
+* [ ] TerraForm
+* [X] CloudFormation
 
-## CD/CI
+## Learn some CI/CD Tool
 * [ ] Jenkins
 * [ ] Circle CI
 * [ ] TeamCity
-* [ ] Jenkins
 
-## Infrastructure Montoring
+## Learn how to monitor software and infrastructure
+### Infrastructure Monitoring
 * [ ] Zabbix
+
+### Application Monitoring
+* [ ] AppDynamics
+
+### Logs Management
+* [ ] ELK Stack
+* [ ] Graylog
+
+## CloudProviders
+* [X] AWS
+* [ ] Goolge Cloud
+* [ ] Azure
