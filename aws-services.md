@@ -20,7 +20,7 @@
 - [ ]	Amazon Elastic Container Service for Kubernetes (EKS)
 - [ ]	Amazon ElastiCache
 - [ ]	Amazon Elastic Block Store (EBS)
-- [ ]	Amazon Elastic Compute Cloud (EC2)
+- [X]	Amazon Elastic Compute Cloud (EC2)
 - [ ]	Amazon EC2 Auto Scaling
 - [ ]	AWS Auto Scaling
 - [ ]	Amazon Elastic File System (EFS)
@@ -44,7 +44,7 @@
 - [ ]	Amazon MQ
 - [ ]	Amazon Neptune
 - [ ]	Amazon Pinpoint
-- [ ]	Amazon Polly
+- [X]	Amazon Polly
 - [ ]	Amazon QuickSight
 - [ ]	Amazon Redshift
 - [ ]	Amazon Rekognition Image
@@ -56,12 +56,12 @@
 - [ ]	Amazon Simple Email Service (SES)
 - [ ]	Amazon Simple Notification Service (SNS)
 - [ ]	Amazon Simple Queue Service (SQS)
-- [ ]	Amazon Simple Storage Service (S3)
+- [X]	Amazon Simple Storage Service (S3)
 - [ ]	Amazon Simple Workflow Service (SWF)
 - [ ]	Amazon Sumerian
 - [ ]	Amazon Transcribe
-- [ ]	Amazon Translate
-- [ ]	Amazon Virtual Private Cloud (VPC)
+- [X]	Amazon Translate
+- [X]	Amazon Virtual Private Cloud (VPC)
 - [ ]	Amazon WorkDocs
 - [ ]	Amazon WorkMail
 - [ ]	Amazon WorkSpaces
@@ -105,7 +105,7 @@
 - [ ]	AWS Managed Services
 - [ ]	AWS Marketplace
 - [ ]	AWS Migration Hub
-- [ ]	AWS Mobile Hub
+- [X]	AWS Mobile Hub
 - [ ]	AWS OpsWorks スタック
 - [ ]	AWS OpsWorks for Chef Automate
 - [ ]	AWS OpsWorks for Puppet Enterprise
@@ -123,7 +123,7 @@
 - [ ]	AWS Step Functions
 - [ ]	AWS Storage Gateway
 - [ ]	AWS Systems Manager
-- [ ]	AWS Trusted Advisor
+- [X]	AWS Trusted Advisor
 - [X]	AWS WAF
 - [ ]	AWS X-Ray
 - [ ]	Elastic Load Balancing
