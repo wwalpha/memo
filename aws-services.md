@@ -1,0 +1,130 @@
+## AWS Service List
+- [ ]	Alexa for Business
+- [X]	Amazon API Gateway
+- [ ]	Amazon AppStream 2.0
+- [ ]	Amazon Athena
+- [ ]	Amazon Aurora
+- [ ]	Amazon Chime
+- [ ]	Amazon Cloud Directory
+- [ ]	Amazon CloudSearch
+- [X]	Amazon CloudWatch
+- [X]	Amazon CloudWatch Events
+- [X]	Amazon CloudWatch Logs
+- [X]	Amazon Cognito
+- [ ]	Amazon Comprehend
+- [ ]	Amazon Connect
+- [ ]	Amazon DeepLens
+- [X]	Amazon DynamoDB
+- [ ]	Amazon Elastic Container Registry (ECR)
+- [ ]	Amazon Elastic Container Service (ECS)
+- [ ]	Amazon Elastic Container Service for Kubernetes (EKS)
+- [ ]	Amazon ElastiCache
+- [ ]	Amazon Elastic Block Store (EBS)
+- [ ]	Amazon Elastic Compute Cloud (EC2)
+- [ ]	Amazon EC2 Auto Scaling
+- [ ]	AWS Auto Scaling
+- [ ]	Amazon Elastic File System (EFS)
+- [ ]	Amazon Elastic MapReduce
+- [ ]	Amazon Elasticsearch Service
+- [ ]	Amazon Elastic Transcoder
+- [ ]	Amazon FreeRTOS
+- [ ]	Amazon GameLift
+- [ ]	Amazon Glacier
+- [ ]	Amazon GuardDuty
+- [ ]	Amazon Inspector
+- [ ]	Amazon Kinesis Data Analytics
+- [ ]	Amazon Kinesis Data Firehose
+- [ ]	Amazon Kinesis Data Streams
+- [ ]	Amazon Kinesis Video Streams
+- [ ]	Amazon Lex
+- [ ]	Amazon Lightsail
+- [ ]	Amazon Machine Learning
+- [ ]	Amazon Macie
+- [ ]	Amazon Mobile Analytics
+- [ ]	Amazon MQ
+- [ ]	Amazon Neptune
+- [ ]	Amazon Pinpoint
+- [ ]	Amazon Polly
+- [ ]	Amazon QuickSight
+- [ ]	Amazon Redshift
+- [ ]	Amazon Rekognition Image
+- [ ]	Amazon Rekognition Video
+- [ ]	Amazon Relational Database Service (RDS)
+- [ ]	Amazon Route 53 Auto Naming
+- [ ]	Amazon SageMaker
+- [ ]	Amazon SimpleDB
+- [ ]	Amazon Simple Email Service (SES)
+- [ ]	Amazon Simple Notification Service (SNS)
+- [ ]	Amazon Simple Queue Service (SQS)
+- [ ]	Amazon Simple Storage Service (S3)
+- [ ]	Amazon Simple Workflow Service (SWF)
+- [ ]	Amazon Sumerian
+- [ ]	Amazon Transcribe
+- [ ]	Amazon Translate
+- [ ]	Amazon Virtual Private Cloud (VPC)
+- [ ]	Amazon WorkDocs
+- [ ]	Amazon WorkMail
+- [ ]	Amazon WorkSpaces
+- [ ]	Amazon WorkSpaces Application Manager
+- [ ]	AWS Application Discovery Service
+- [X]	AWS AppSync
+- [ ]	AWS Batch
+- [ ]	AWS Certificate Manager
+- [X]	AWS CloudFormation
+- [ ]	AWS Cloud9
+- [ ]	AWS CloudHSM
+- [ ]	AWS CloudTrail
+- [X]	AWS CodeBuild
+- [X]	AWS CodeCommit
+- [X]	AWS CodeDeploy
+- [X]	AWS CodePipeline
+- [ ]	AWS CodeStar
+- [ ]	AWS Config
+- [ ]	AWS Database Migration Service
+- [ ]	AWS Data Pipeline
+- [ ]	AWS Device Farm
+- [ ]	AWS Direct Connect
+- [ ]	AWS Directory Service
+- [X]	AWS Elastic Beanstalk
+- [ ]	AWS Elemental MediaConvert
+- [ ]	AWS Elemental MediaLive
+- [ ]	AWS Elemental MediaPackage
+- [ ]	AWS Elemental MediaStore
+- [ ]	AWS Elemental MediaTailor
+- [ ]	AWS Fargate
+- [ ]	AWS Firewall Manager
+- [ ]	AWS Glue
+- [ ]	AWS Greengrass
+- [ ]	AWS IoT Core
+- [ ]	AWS IoT 1-Click
+- [ ]	AWS IoT Analytics
+- [ ]	AWS IoT Device Defender
+- [ ]	AWS IoT Device Management
+- [ ]	AWS Key Management Service
+- [X]	AWS Lambda
+- [ ]	AWS Managed Services
+- [ ]	AWS Marketplace
+- [ ]	AWS Migration Hub
+- [ ]	AWS Mobile Hub
+- [ ]	AWS OpsWorks スタック
+- [ ]	AWS OpsWorks for Chef Automate
+- [ ]	AWS OpsWorks for Puppet Enterprise
+- [ ]	AWS Personal Health Dashboard
+- [ ]	AWS Secrets Manager
+- [ ]	AWS Serverless Application Repository
+- [ ]	AWS Server Migration Service
+- [ ]	AWS Service Catalog
+- [ ]	AWS Shield Standard
+- [ ]	AWS Shield Advanced
+- [ ]	AWS Single Sign-On
+- [ ]	AWS Snowball
+- [ ]	AWS Snowball Edge
+- [ ]	AWS Snowmobile
+- [ ]	AWS Step Functions
+- [ ]	AWS Storage Gateway
+- [ ]	AWS Systems Manager
+- [ ]	AWS Trusted Advisor
+- [X]	AWS WAF
+- [ ]	AWS X-Ray
+- [ ]	Elastic Load Balancing
+- [ ]	VM Import/Export
