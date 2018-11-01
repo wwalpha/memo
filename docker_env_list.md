@@ -9,8 +9,8 @@
   - [ ] Nodejs 8.10
   - [ ] MongoDB (latest)
 - [ ] Nodejs_003
-  - [ ] Nodejs 10.3
+  - [ ] Nodejs 10.13
   - [ ] Dynamodb Local (latest)
 - [ ] Nodejs_004
-  - [ ] Nodejs 10.3
+  - [ ] Nodejs 10.13
   - [ ] MongoDB (latest)
