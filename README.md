@@ -1,3 +1,9 @@
+## 検証
+* [ ] Realtime log search
+  * [ ] CloudFront log -> Elasticsearch + Kibana
+* [ ] ECR + ECS + Fargate
+
+
 ## 実験項目
 * [ ] SQSの標準キューでシーケンス情報でFIFO実現
 * [ ] SQSのFIFOキューでFIFO実現
