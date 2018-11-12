@@ -2,6 +2,7 @@
 * [ ] Realtime log search
   * [ ] CloudFront log -> Elasticsearch + Kibana
 * [ ] ECR + ECS + Fargate
+* [ ] 3Tier Model -> CloudFormation
 
 
 ## 実験項目
