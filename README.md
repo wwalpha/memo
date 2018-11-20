@@ -1,3 +1,6 @@
+## 概念
+* [ ] cloud-init
+
 ## 検証
 * [ ] Realtime log search
   * [ ] CloudFront log -> Elasticsearch + Kibana
