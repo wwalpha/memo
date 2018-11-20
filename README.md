@@ -1,6 +1,6 @@
 ## Black Belt
 * [ ] AWS Config
-* [ ] EC2Config
+* [ ] EC2 Config
 
 ## 概念
 * [ ] cloud-init
