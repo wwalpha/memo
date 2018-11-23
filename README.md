@@ -1,6 +1,5 @@
 ## Black Belt
 * [ ] AWS Config
-* [ ] EC2 Config
 
 ## 概念
 * [ ] cloud-init
@@ -10,6 +9,7 @@
   * [ ] CloudFront log -> Elasticsearch + Kibana
 * [ ] ECR + ECS + Fargate
 * [ ] 3Tier Model -> CloudFormation
+* [ ] Session to DynamoDB
 
 ## 実験項目
 * [ ] Blue/Green Deployment
