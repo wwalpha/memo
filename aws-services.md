@@ -19,6 +19,8 @@
 - [ ]	Amazon Elastic Container Service (ECS)
 - [ ]	Amazon Elastic Container Service for Kubernetes (EKS)
 - [ ]	Amazon ElastiCache
+  - [ ] MemCache
+  - [ ] Redis
 - [ ]	Amazon Elastic Block Store (EBS)
 - [X]	Amazon Elastic Compute Cloud (EC2)
 - [ ]	Amazon EC2 Auto Scaling
@@ -29,7 +31,7 @@
 - [ ]	Amazon Elastic Transcoder
 - [ ]	Amazon FreeRTOS
 - [ ]	Amazon GameLift
-- [ ]	Amazon Glacier
+- [X]	Amazon Glacier
 - [ ]	Amazon GuardDuty
 - [ ]	Amazon Inspector
 - [ ]	Amazon Kinesis Data Analytics
