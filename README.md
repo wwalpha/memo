@@ -1,5 +1,11 @@
 ## 2018/12/28 SAP試験
 
+## 2019/12/09
+* [ ] AWS Lambda Layer
+* [ ] AWS Mulitple Runtime
+* [X] AWS Toolkit for VSCode
+
+
 ## Black Belt
 * [ ] AWS Config
 
