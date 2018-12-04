@@ -3,14 +3,13 @@
 ## 2019/12/09
 * [ ] AWS Lambda Layer
 * [ ] AWS Mulitple Runtime
-* [X] AWS Toolkit for VSCode
-
+* [X] Install AWS Toolkit for VSCode
+* [ ] cloud-init
 
 ## Black Belt
 * [ ] AWS Config
 
 ## 概念
-* [ ] cloud-init
 
 ## 検証
 * [ ] Realtime log search
