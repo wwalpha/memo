@@ -2,7 +2,7 @@
 
 ## 2019/12/09
 * [X] AWS Lambda Layer
-* [ ] AWS Mulitple Runtime
+* [ ] AWS Lambda Mulitple Runtime
 * [X] Install AWS Toolkit for VSCode
 * [ ] cloud-init
 
