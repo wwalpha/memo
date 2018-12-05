@@ -1,7 +1,7 @@
 ## 2018/12/28 SAP試験
 
 ## 2019/12/09
-* [ ] AWS Lambda Layer
+* [X] AWS Lambda Layer
 * [ ] AWS Mulitple Runtime
 * [X] Install AWS Toolkit for VSCode
 * [ ] cloud-init
