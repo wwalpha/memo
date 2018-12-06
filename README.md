@@ -24,7 +24,7 @@
 * [ ] Blue/Green Deployment
 * [ ] SQSの標準キューでシーケンス情報でFIFO実現
 * [ ] SQSのFIFOキューでFIFO実現
-* [ ] 一時認証(STS/SAML)の認証
+* [ ] SAML認証
 
 ## 2018/06/25 ~ 2018/07/22: **IoT**やりましょう
 * [X] Raspberry Pi install
