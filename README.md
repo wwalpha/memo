@@ -1,6 +1,7 @@
 ## 2018/12/28 SAP試験
 
-## 2019/12/09
+## 2019/12/09 
+* [ ] VPC S3 endpoint
 * [X] AWS Lambda Layer
 * [ ] AWS Transfer for SFTP
 * [ ] AWS Lambda Mulitple Runtime
