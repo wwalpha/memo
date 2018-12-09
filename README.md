@@ -1,7 +1,6 @@
 ## 2018/12/28 SAP試験
 
 ## 2019/12/16
-* [ ] VPC S3 endpoint
 * [ ] AWS Transfer for SFTP
 * [ ] AWS Lambda Mulitple Runtime
 * [ ] cloud-init
@@ -17,6 +16,9 @@
 ## 概念
 
 ## 検証
+* [ ] AWS VPN
+* [ ] VPC S3 endpoint
+* [ ] Two ENI, one public, one private
 * [ ] Realtime log search
   * [ ] CloudFront log -> Elasticsearch + Kibana
 * [ ] ECR + ECS + Fargate
