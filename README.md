@@ -1,12 +1,15 @@
 ## 2018/12/28 SAP試験
 
-## 2019/12/09 
+## 2019/12/16
 * [ ] VPC S3 endpoint
-* [X] AWS Lambda Layer
 * [ ] AWS Transfer for SFTP
 * [ ] AWS Lambda Mulitple Runtime
-* [X] Install AWS Toolkit for VSCode
 * [ ] cloud-init
+* [ ] CloudFront web distribution for streaming the video
+
+## 2019/12/09 
+* [X] AWS Lambda Layer
+* [X] Install AWS Toolkit for VSCode
 
 ## Black Belt
 * [ ] AWS Config
