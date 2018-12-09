@@ -13,6 +13,7 @@
 * [ ] AWS Config
 
 ## 概念
+* [] file-level backup
 
 ## 検証
 * [ ] CloudFront web distribution for streaming the video
