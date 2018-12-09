@@ -8,3 +8,12 @@
 |enhancement|enˈhansmənt|強化、増強
 |integrity|inˈtegritē|整合性
 |periodic|ˌpi(ə)rēˈädik|周期性
+|scalability||拡張性
+|eliminate|iˈliməˌnāt|省きます
+|magnitude|ˈmagnəˌto͞od|巨大さ
+|parallel|-ləl,ˈparəˌlel|平行
+|manner|ˈmanər|やり方
+|intervention|ˌintərˈvenCHən|介入
+|computation|ˌkämpyo͝oˈtāSHən|算出
+|absorbing|əbˈzôrbiNG|吸収
+|withstand|wiTHˈstand|耐えます
