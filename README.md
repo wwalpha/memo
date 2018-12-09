@@ -4,7 +4,6 @@
 * [ ] AWS Transfer for SFTP
 * [ ] AWS Lambda Mulitple Runtime
 * [ ] cloud-init
-* [ ] CloudFront web distribution for streaming the video
 
 ## 2019/12/09 
 * [X] AWS Lambda Layer
@@ -16,6 +15,7 @@
 ## 概念
 
 ## 検証
+* [ ] CloudFront web distribution for streaming the video
 * [ ] AWS VPN
 * [ ] VPC S3 endpoint
 * [ ] Two ENI, one public, one private
