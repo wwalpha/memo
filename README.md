@@ -16,6 +16,7 @@
 * [] file-level backup
 
 ## 検証
+* [ ] Application Load Blancer(ALB) -> Server Name Indicate(SNI)
 * [ ] CloudFront web distribution for streaming the video
 * [ ] AWS VPN
 * [ ] VPC S3 endpoint
