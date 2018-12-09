@@ -6,3 +6,5 @@
 |promiscuous|prəˈmiskyo͞oəs|無差別
 |helmet|ˈhelmit|ヘルメット
 |enhancement|enˈhansmənt|強化、増強
+|integrity|inˈtegritē|整合性
+|periodic|ˌpi(ə)rēˈädik|周期性
