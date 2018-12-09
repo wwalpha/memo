@@ -16,6 +16,7 @@
 * [] file-level backup
 
 ## 検証
+* [ ] CloudFront distribution for Dynamic contents
 * [ ] Storage Gateway
   * [ ] Backup
   * [ ] Restore from EC2 AMI
