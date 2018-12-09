@@ -16,6 +16,9 @@
 * [] file-level backup
 
 ## 検証
+* [ ] Storage Gateway
+  * [ ] Backup
+  * [ ] Restore from EC2 AMI
 * [ ] Application Load Blancer(ALB) -> Server Name Indicate(SNI)
 * [ ] CloudFront web distribution for streaming the video
 * [ ] AWS VPN
