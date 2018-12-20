@@ -17,3 +17,4 @@
 |computation|ˌkämpyo͝oˈtāSHən|算出
 |absorbing|əbˈzôrbiNG|吸収
 |withstand|wiTHˈstand|耐えます
+|evaluation|iˌvalyo͞oˈāSHən|評価
