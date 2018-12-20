@@ -10,4 +10,6 @@ $ source ~/.bashrc
 $ go get github.com/kahing/goofys
 $ go install github.com/kahing/goofys
 $ $GOPATH/bin/goofys -o allow_other -f --uid=?? --gid=?? bucket folder
+
+$ echo "goofys#s3_bucket /folder fuse _net??? 0 0" >> /etc/fstab
 ```
