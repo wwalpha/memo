@@ -5,6 +5,7 @@
 * [ ] AWS Dynamic Contents Delivery
 * [ ] EC2 Multiple ENI
 * [ ] AWS VPN
+* [ ] CodeCommit, CodeBuild, CodeDeploy, CodePipeline
 
 ## 2018/12/30
 * [ ] AWS Transfer for SFTP
