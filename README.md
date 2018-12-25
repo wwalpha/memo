@@ -1,6 +1,7 @@
 ## 2018/12/28 SAP試験
 
 ## 2018/01/06
+* [ ] AWS Kinesis
 * [ ] AWS ElasticSearch
 * [ ] AWS Dynamic Contents Delivery
 * [ ] EC2 Multiple ENI
