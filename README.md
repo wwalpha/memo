@@ -3,6 +3,7 @@
 ## 2018/01/06
 * [ ] AWS ElasticSearch
 * [ ] AWS Dynamic Contents Delivery
+* [ ] EC2 Multiple ENI
 
 ## 2018/12/30
 * [ ] AWS Transfer for SFTP
