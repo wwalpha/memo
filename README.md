@@ -1,11 +1,15 @@
 ## 2018/12/28 SAP試験
 
-## 2019/12/16
+## 2018/01/06
+* [ ] AWS ElasticSearch
+* [ ] AWS Dynamic Contents Delivery
+
+## 2018/12/30
 * [ ] AWS Transfer for SFTP
 * [ ] AWS Lambda Mulitple Runtime
 * [ ] cloud-init
 
-## 2019/12/09 
+## 2018/12/09 
 * [X] AWS Lambda Layer
 * [X] Install AWS Toolkit for VSCode
 
