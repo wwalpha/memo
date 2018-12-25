@@ -4,6 +4,7 @@
 * [ ] AWS ElasticSearch
 * [ ] AWS Dynamic Contents Delivery
 * [ ] EC2 Multiple ENI
+* [ ] AWS VPN
 
 ## 2018/12/30
 * [ ] AWS Transfer for SFTP
