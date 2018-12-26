@@ -75,7 +75,7 @@
 - [X]	AWS CloudFormation
 - [ ]	AWS Cloud9
 - [ ]	AWS CloudHSM
-- [ ]	AWS CloudTrail
+- [X]	AWS CloudTrail
 - [X]	AWS CodeBuild
 - [X]	AWS CodeCommit
 - [X]	AWS CodeDeploy
@@ -88,7 +88,7 @@
 - [ ]	AWS Direct Connect
 - [ ]	AWS Directory Service
 - [X]	AWS Elastic Beanstalk
-- [ ]	AWS Elemental MediaConvert
+- [X]	AWS Elemental MediaConvert
 - [ ]	AWS Elemental MediaLive
 - [ ]	AWS Elemental MediaPackage
 - [ ]	AWS Elemental MediaStore
