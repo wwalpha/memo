@@ -9,3 +9,9 @@ $ yum install nodejs -y
 $ curl -sL https://rpm.nodesource.com/setup_8.x | bash -
 $ yum install nodejs -y
 ```
+
+## Version Confirm
+```
+$ node -v
+$ npm -v
+```
