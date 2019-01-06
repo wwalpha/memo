@@ -15,6 +15,9 @@
 * [ ] Application Load Blancer
   * [ ] Enable Log to CloudWatch
   * [ ] Enable SSL
+* [ ] Auto Scaling
+  * [ ] Web
+  * [ ] App
 * [ ] CloudFront
   * [X] Origin to ELB
   * [ ] Enable SSL
