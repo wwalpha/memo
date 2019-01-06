@@ -23,7 +23,7 @@
   - [ ] Redis
 - [ ]	Amazon Elastic Block Store (EBS)
 - [X]	Amazon Elastic Compute Cloud (EC2)
-- [ ]	Amazon EC2 Auto Scaling
+- [X]	Amazon EC2 Auto Scaling
 - [ ]	AWS Auto Scaling
 - [ ]	Amazon Elastic File System (EFS)
 - [ ]	Amazon Elastic MapReduce
@@ -49,14 +49,14 @@
 - [X]	Amazon Polly
 - [ ]	Amazon QuickSight
 - [ ]	Amazon Redshift
-- [ ]	Amazon Rekognition Image
+- [X]	Amazon Rekognition Image
 - [ ]	Amazon Rekognition Video
 - [ ]	Amazon Relational Database Service (RDS)
 - [ ]	Amazon Route 53 Auto Naming
 - [ ]	Amazon SageMaker
 - [ ]	Amazon SimpleDB
 - [ ]	Amazon Simple Email Service (SES)
-- [ ]	Amazon Simple Notification Service (SNS)
+- [X]	Amazon Simple Notification Service (SNS)
 - [ ]	Amazon Simple Queue Service (SQS)
 - [X]	Amazon Simple Storage Service (S3)
 - [ ]	Amazon Simple Workflow Service (SWF)
@@ -73,7 +73,7 @@
 - [ ]	AWS Batch
 - [ ]	AWS Certificate Manager
 - [X]	AWS CloudFormation
-- [ ]	AWS Cloud9
+- [X]	AWS Cloud9
 - [ ]	AWS CloudHSM
 - [X]	AWS CloudTrail
 - [X]	AWS CodeBuild
@@ -128,5 +128,5 @@
 - [X]	AWS Trusted Advisor
 - [X]	AWS WAF
 - [ ]	AWS X-Ray
-- [ ]	Elastic Load Balancing
+- [X]	Elastic Load Balancing
 - [ ]	VM Import/Export
