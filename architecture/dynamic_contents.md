@@ -11,16 +11,17 @@
   * [ ] DB Connection Info from **Parameter Store**
 * [ ] Web Server
   * [X] Nginx
-  * [ ] Proxy to ELB
+  * [X] Proxy to ELB
+  * [ ] Enable SSL
 * [ ] Application Load Blancer
   * [ ] Enable Log to CloudWatch
   * [ ] Enable SSL
-* [ ] Auto Scaling
-  * [ ] Web
-  * [ ] App
+* [X] Auto Scaling
+  * [X] Web
+  * [X] App
 * [ ] CloudFront
   * [X] Origin to ELB
-  * [ ] Static from S3
+  * [X] Static from S3
   * [ ] Enable SSL
 * [ ] Route53
   * [ ] Regist Domain
