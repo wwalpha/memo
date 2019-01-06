@@ -20,9 +20,9 @@
   * [ ] App
 * [ ] CloudFront
   * [X] Origin to ELB
+  * [ ] Static from S3
   * [ ] Enable SSL
 * [ ] Route53
   * [ ] Regist Domain
   * [ ] Create Certificate from ACM
   * [ ] Enable SSL
-  * [ ] Static from S3
