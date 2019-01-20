@@ -101,7 +101,7 @@
 
 ## Learn Package Manager
 * [ ] composer (PHP)
-* [ ] npm (Node.js)
+* [X] npm (Node.js)
 * [ ] pip (Python)
 * [ ] gems (Ruby)
 
@@ -122,7 +122,7 @@
 
 ## Learn a NoSQL Database
 * [ ] MongoDB
-* [ ] DynamoDB
+* [X] DynamoDB
 
 ## Caching
 * [ ] Memcached
