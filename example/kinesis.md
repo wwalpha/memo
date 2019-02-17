@@ -1,5 +1,18 @@
 # EC2 + Kinesis Agent + Kinesis Firehose + ElasticSearch
 
+## ElasticSearch
+|||
+|---|---|
+Elasticsearch| version6.4
+Instance type|t2.small.elasticsearch
+Number of instances|1
+Storage type|EBS
+EBS volume type|General Purpose (SSD)
+EBS volume size|10 GB
+Encryption at rest|Disabled
+Node-to-node encryption|Disabled
+
+
 ## Kinesis FireHose
 |Configs||
 |---|---|
@@ -17,6 +30,7 @@ Index rotation|**No rotation**
 Type|**log**
 Retry duration|**300 seconds**
 Buffer conditions|**1 MB or 60 seconds**
+CloudWatch error logging| **Enabled**
 
 <br />
 
