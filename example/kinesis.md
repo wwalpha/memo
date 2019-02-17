@@ -7,8 +7,8 @@ Source| **Direct PUT or other sources**
 Source record transformation| **Disabled**
 Backup mode| **Failed records only**
 S3 bucket| **transcoder-test-1224**
-Prefix| **no prefix specified******
-Buffer conditions| **1 MB or 6**0 seconds**
+Prefix| **no prefix specified**
+Buffer conditions| **1 MB or 60 seconds**
 Compression| **Disabled**
 Encryption| **Disabled**
 Domain|**es-test-0217**
