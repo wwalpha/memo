@@ -182,3 +182,4 @@ console.log(count);
   * show processlist;
   * show full processlist
 * Infrastructure as CodeとContinuous Deliveryとは何か、技術面、ビジネスの観点からできるだけ詳しく記述せよ
+   * Infrastructure as Codeとはコードでインフラをバージョン管理ツールなどで管理する
