@@ -44,8 +44,8 @@ while ((v = nextNum(prev, curr)) < 4000000) {
 
 console.log(count);
 ```
-・AWS, youtube、LINE、BOX等をサービスを使って、新しいビジネスを検討してください。　運用費も検討できると加点する
-
+* AWS, youtube、LINE、BOX等をサービスを使って、新しいビジネスを検討してください。　運用費も検討できると加点する
+  * 
 * DoSS攻撃に対処作を論じろ
   * 攻撃対象領域の削減
     * CDN, ELBなどサービスの背後に置く、直接アプリに到達しない
